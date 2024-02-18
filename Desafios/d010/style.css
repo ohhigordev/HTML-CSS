@@ -64,19 +64,24 @@ main{
     width: 100%;
     margin: 10 px;
 }
-.novo-mascote{
-    width: 50%;
+div.novo-mascote{
+    display: flex;
+    border: 1px solid black;
+    right: 200px;
    
     
+}
+div#f1{
+    margin: 0 0 0 0;
+    display: block;
+    border: 2px solid black;
+    width: 930px;
+    height: 400px;
 }
 .video{
     display: flex;
     justify-content: center;
-    background-color: rgb(20, 61, 20);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    
 }
 .Caixa-verde{
     background-color: rgba(144, 238, 144, 0.438);
