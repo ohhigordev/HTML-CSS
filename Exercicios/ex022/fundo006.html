@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        div.quadrado{
+            display: inline-block;
+            border: 1px solid black;
+            height: 120px;
+            width: 120px;
+            border-radius: 5px;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        div#c1{
+            background-color: #1F37BF;
+
+        }
+        div#c2{
+            background-color: #4E5FBF;
+
+        }
+        div#c3{
+            background-color: #3C4473;
+        }
+        div#c4{
+            background-color: #F2C46D;
+        }
+        div#c5{
+            background-color: #F2994B;
+        }
+        div.gradiente{
+            border: 1px solid black;
+            height: 150px;
+            border-radius: 20px;
+            background-image: linear-gradient(90deg,#1F37BF,#4E5FBF,#3C4473,#F2C46D,#F2994B);
+        }
+        div.imagem{
+            height: 500px;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-image: url(imagens/pattern004.png);
+        }
+        .imagem-sem-repetição{
+            height: 500px;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-image: url(imagens/pattern004.png);
+            background-repeat:no-repeat; 
+        }
+    </style>
+</head>
+<body>
+    <p>1. Palheta de cores.</p>
+    <div class="quadrado" id="c1">
+
+    </div>
+    <div class="quadrado" id="c2">
+
+    </div>
+    <div class="quadrado" id="c3">
+
+    </div>
+    <div class="quadrado" id="c4">
+
+    </div>
+    <div class="quadrado" id="c5">
+
+    </div>
+    <p>2. Gradiente</p>
+    <div class="gradiente">
+
+    </div>
+    <p>3. Adicionando imagem</p>
+    <div class="imagem">
+
+    </div>
+    <p>3.1 Imagem sem repetição</p>
+    <div class="imagem-sem-repetição">
+
+    </div>
+    
+</body>
+</html>
