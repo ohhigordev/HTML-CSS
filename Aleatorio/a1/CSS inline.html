@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Inline</title>
+    <style>
+        .cabeçalho{
+            background-color: darkgoldenrod;
+            padding:20px ;
+            margin-top: 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .titulo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:60px;
+            color: white;
+            
+        }
+        .capitulo{
+            text-decoration: underline;
+            color: gray;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25px;
+        }
+        #pseudo-classe::first-letter{
+            font-size: 50px;
+            color: red;
+
+        }
+        #pseudo-classe{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: large;
+            text-indent: 30px;
+            
+        }
+    </style>
 </head>
-<body style="font-family: Arial, Helvetica, sans-serif; color: blue;">
-    <h1>Titulo</h1>
-    <h2>Capitulo 1</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab qui ipsam magnam exercitationem necessitatibus fugiat, voluptatum, rerum dolorum quae quibusdam, fugit reprehenderit earum laudantium! Soluta totam sed assumenda porro!</p>
-    <h2>Capitulo 2</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae soluta in nobis eos quo veritatis explicabo inventore odio dolorum. Laborum velit illum magni quae similique animi iste quos eum soluta?</p>
+<body>
+    <header class="cabeçalho">
+        <h1 class="titulo">Titulo</h1>
+    </header>
+    <h2 class="capitulo">Capitulo 1</h2>
+    <p id="pseudo-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab qui ipsam magnam exercitationem necessitatibus fugiat, voluptatum, rerum dolorum quae quibusdam, fugit reprehenderit earum laudantium! Soluta totam sed assumenda porro! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quas magni sint excepturi quam, illo, perspiciatis cumque recusandae aliquid fugiat ullam sit odit? Optio laudantium exercitationem praesentium fugiat? Aspernatur, enim?</p>
+    <h2 class="capitulo">Capitulo 2</h2>
+    <p id="pseudo-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae soluta in nobis eos quo veritatis explicabo inventore odio dolorum. Laborum velit illum magni quae similique animi iste quos eum soluta? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem excepturi quae ex vel error repellendus, quis aspernatur. Explicabo, natus nesciunt a veritatis possimus est aspernatur dolorem, odio vel repellat nam?</p>
     
     
 </body>

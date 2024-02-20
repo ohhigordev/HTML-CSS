@@ -65,10 +65,10 @@ main{
     margin: 10 px;
 }
 div.novo-mascote{
-    display: flex;
+    
     border: 1px solid black;
     right: 200px;
-   
+    background-size: 10px 10px;
     
 }
 div#f1{
