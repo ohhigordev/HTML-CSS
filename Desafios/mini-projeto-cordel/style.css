@@ -45,25 +45,42 @@ header a, footer a{
 }
 
 section{
-    padding-top: 10vh;
+    padding-top: 12vh;
     padding-bottom: 10vh;
     line-height: 2em; /*espaçamento entre as linhas.*/
     padding-left: 40px;
     font-family: var(--font3);
     font-size: 3vw;
 }
+section>p{
+    padding-bottom: 1em;
+}
 .normal{
     background-color: white;
-    color: black;
+    color: rgba(0, 0, 0, 0.979);
 }
 .imagem{
     background-color: rgb(34, 33, 33);
     color: white;
+    background-attachment: fixed;
 }
 .imagem>p{
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 footer{
